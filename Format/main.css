@@ -28,6 +28,8 @@ body{
 #nav-bar{
     background: #333;
     color: #fff;
+    position: sticky;
+    top: 0;
 }
 
 #nav-bar ul{
@@ -54,9 +56,50 @@ body{
 }
 
 .main-section{
+    float: left;
     margin-left: 150px;
+    width:70%;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .main-section h2{
     font-weight: 200;
+}
+
+.sidebar{
+    float: right;
+    width:20%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar h2{
+    font-weight: 200;
+}
+
+
+
+/* formating sidebar to window changes*/
+@media(max-width:1520px){
+    .sidebar{
+        width: 19%;
+    }
+}
+
+@media(max-width:1380px){
+    .sidebar{
+        width: 18%;
+    }
+}
+
+@media(max-width:1270px){
+    .main-section{
+        float: none;
+    }
+    .sidebar{
+        width: 70%;
+        float: none;
+        margin-left: 150px;
+    }
 }
