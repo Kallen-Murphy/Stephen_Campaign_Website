@@ -19,6 +19,13 @@ body{
     clear: both;
 }
 
+.anchor{
+    display: block;
+    content:"";
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
 #main-header{
     background-image: url("images/headerbkgrnd.jpg");
     color: #fff;
@@ -67,6 +74,16 @@ body{
     position: fixed;
 }
 
+#next-session h1{
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
+#next-session a{
+    color: white;
+    text-decoration: none;
+}
+
 .main-section{
     float: left;
     margin-left: 150px;
@@ -99,6 +116,24 @@ body{
     position: fixed;
 }
 
+.page-nav h2{
+    margin-bottom: 0;
+}
+.page-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.page-nav ul{
+    margin-top: 0;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.page-nav li{
+    text-indent: -10px;
+}
+
 #main-footer{
     background: #333;
     color: #fff;
@@ -108,12 +143,13 @@ body{
 }
 
 .main-section .button-link{
+    display: inline-block;
     padding: 10px;
     background: gray;
     background-size: cover;
     text-decoration: none;
     color: white;
-    line-height: 1.8em;
+    line-height: 1.6em;
 }
 
 /* formating sidebar to window changes*/
