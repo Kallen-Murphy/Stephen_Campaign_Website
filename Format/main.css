@@ -11,6 +11,8 @@ body{
     width: 80%;
     margin:auto;
     overflow: hidden;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .clr{
@@ -30,6 +32,7 @@ body{
     color: #fff;
     position: sticky;
     top: 0;
+    line-height: 1.8em;
 }
 
 #nav-bar ul{
@@ -45,11 +48,20 @@ body{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    padding-right: 15px;
+    padding: 15px;
+}
+
+#nav-bar a:hover{
+    color: #fff;
+    background-color: #555;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
 }
 
 #next-session{
     background: gray;
+    margin-top: 25px;
     color: white;
     width: 150px;
     position: fixed;
@@ -61,6 +73,7 @@ body{
     width:70%;
     padding: 15px;
     box-sizing: border-box;
+    line-height: 1.6em;
 }
 
 .main-section h2{
@@ -78,7 +91,30 @@ body{
     font-weight: 200;
 }
 
+.page-nav{
+    background: gray;
+    margin-top: 25px;
+    color: white;
+    width: 150px;
+    position: fixed;
+}
 
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.main-section .button-link{
+    padding: 10px;
+    background: gray;
+    background-size: cover;
+    text-decoration: none;
+    color: white;
+    line-height: 1.8em;
+}
 
 /* formating sidebar to window changes*/
 @media(max-width:1520px){
