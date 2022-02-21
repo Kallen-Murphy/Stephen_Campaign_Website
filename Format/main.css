@@ -79,6 +79,11 @@ body{
     text-indent: -20px;
 }
 
+#next-session h2{
+    font-weight: 200;
+    font-size: 15pt;
+}
+
 #next-session a{
     color: white;
     text-decoration: none;
@@ -95,6 +100,11 @@ body{
 
 .main-section h2{
     font-weight: 200;
+}
+
+.main-section h1{
+    font-size: 24pt;
+    margin-bottom: 0;
 }
 
 .sidebar{
@@ -118,6 +128,7 @@ body{
 
 .page-nav h2{
     margin-bottom: 0;
+    font-weight: 200;
 }
 .page-nav a{
     color: white;
@@ -126,12 +137,16 @@ body{
 
 .page-nav ul{
     margin-top: 0;
-    padding-left: 10px;
+    padding-left: 20px;
     list-style: none;
 }
 
 .page-nav li{
-    text-indent: -10px;
+    text-indent: -15px;
+}
+
+.page-nav hr{
+    margin: 5px 0;
 }
 
 #main-footer{
