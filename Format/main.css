@@ -105,9 +105,10 @@ body{
 
 .main-section{
     float: left;
-    margin-left: 150px;
-    width:70%;
+    margin-left: 0;
+    width: 70%;
     padding: 15px;
+    margin-right: 0;
     box-sizing: border-box;
     line-height: 1.6em;
 }
@@ -123,6 +124,8 @@ body{
 
 .sidebar{
     float: right;
+    overflow: auto;
+    margin: 0;
     width:20%;
     padding: 15px;
     box-sizing: border-box;
@@ -133,11 +136,14 @@ body{
 }
 
 .page-nav{
+    float: left;
     background: gray;
     margin-top: 25px;
     color: white;
     width: 150px;
-    position: fixed;
+    position: sticky;
+    top: 125px;
+    box-sizing: border-box;
 }
 
 .page-nav h2{
@@ -203,6 +209,7 @@ body{
 @media(max-width:1270px){
     .main-section{
         float: none;
+        margin-left: 150px;
     }
     .sidebar{
         width: 70%;
