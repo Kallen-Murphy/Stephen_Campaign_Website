@@ -67,17 +67,17 @@ body{
 }
 
 #next-session{
+    float: left;
     background: gray;
     margin-top: 25px;
     color: white;
     width: 150px;
-    position: fixed;
+    position: sticky;
+    top: 125px;
+    box-sizing: border-box;
+    display: none;
 }
 
-#next-session h1{
-    padding-left: 20px;
-    text-indent: -20px;
-}
 
 #next-session h2{
     font-weight: 200;
@@ -215,5 +215,15 @@ body{
         width: 70%;
         float: none;
         margin-left: 150px;
+    }
+}
+
+@media(max-height: 375px){
+    .page-nav{
+        display: none;
+    }
+
+    #next-session{
+        display: block;
     }
 }
